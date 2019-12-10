@@ -55,7 +55,6 @@ public class PointFragment extends Fragment
         FragmentActivity fragment = Objects.requireNonNull(getActivity());
 
         layoutNoData = root.findViewById(R.id.recyclerNoData);
-//        databasePresenter = new FirebaseDeletePresenter(this, new FirebaseDeleteData());
 
         recyclerView = root.findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
