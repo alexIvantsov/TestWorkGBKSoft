@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "307652203482",
+    "firebase_url": "https://testworkgbksoft-3dc51.firebaseio.com",
+    "project_id": "testworkgbksoft-3dc51",
+    "storage_bucket": "testworkgbksoft-3dc51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307652203482:android:e91c8c3e17f8ba36f0a6e3",
+        "android_client_info": {
+          "package_name": "com.kotizm.testworkgbksoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307652203482-j24tp6fa9kd54qn59kvfuj0ku41mqg70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kotizm.testworkgbksoft",
+            "certificate_hash": "ee3a6a527d1d8089c28f90db3defe715486a74a6"
+          }
+        },
+        {
+          "client_id": "307652203482-kqb20vtsct7rkfgrka71t21v2rne7ngg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyaR9i0aZ8wIw_IGIOz9x1spbWaOn4VJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307652203482-kqb20vtsct7rkfgrka71t21v2rne7ngg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

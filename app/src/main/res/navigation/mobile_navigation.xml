@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_point"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/navigation_point"
+        android:name="com.kotizm.testworkgbksoft.ui.point.PointFragment"
+        android:label="@string/title_point"
+        tools:layout="@layout/fragment_recycler_view" >
+        <action
+            android:id="@+id/action_navigation_point_to_navigation_map"
+            app:destination="@id/navigation_map" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.kotizm.testworkgbksoft.ui.map.MapFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_navigation_map_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.kotizm.testworkgbksoft.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
